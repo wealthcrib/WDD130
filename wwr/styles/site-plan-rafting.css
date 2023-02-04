@@ -31,10 +31,11 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  font-family: 'Times New Roman', Times, serif;
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
 }
 img {
@@ -45,6 +46,8 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  margin: 0;
+  padding: 0;
 }
 h2 {
   text-align: center;

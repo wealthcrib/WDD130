@@ -6,6 +6,7 @@ nav ,a{
     text-align: left;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -15,12 +16,15 @@ nav ,a{
 }
 main section{
     text-align: center;
+    box-sizing: 100px
 }
 #background {
     height: 725px;
 }
 body{
     background-color: pink;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: green;
@@ -33,6 +37,9 @@ nav a:hover{
     background-color: black;
     color: antiquewhite;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
     
 }
 .book:hover, .join:hover{
@@ -44,12 +51,17 @@ nav a:hover{
 }
 .msg{
     background-color: brown;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: purple;
 }
 .home-title{
     color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font: size 2em;
+    margin-top: 10px;
 }
 h4{
     color: aquamarine;
@@ -59,9 +71,13 @@ h4{
 }
 .msg p{
     color: brown;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     color: aliceblue;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: azure;
@@ -75,6 +91,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -84,4 +101,7 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+.card-img{
+   border:10px solid black ;
 }
