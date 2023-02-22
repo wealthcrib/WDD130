@@ -18,6 +18,8 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
+    
+    
 }
 a{
     text-align: left;
@@ -160,6 +162,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 
 
 
