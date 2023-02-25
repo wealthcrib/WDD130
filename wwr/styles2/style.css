@@ -64,7 +64,7 @@ nav a:hover{
 .home-title{
     color:antiquewhite;
     font-family: 'Times New Roman', Times, serif;
-    font: size 2em;
+    font-size:  2em;
     margin-top: 10px;
     text-align: center;
 }
@@ -77,13 +77,19 @@ nav a:hover{
 .button-box{
     text-align: center;
 }
-.book{
+.book,.join{
     background-color: antiquewhite;
     color: black;
     text-decoration: none;
     font-size: 18px;
     margin-top: 50px;
     border-radius: 5px;
+    padding: 15px 30px;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    
+    
 }
 .home-grid{
     display: grid;
@@ -142,19 +148,13 @@ nav a:hover{
     padding-bottom: 15px;
 }
 
-.join{
-    background-color: black;
-    color: antiquewhite;
-    text-decoration: none;
-    font-size: 18px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
+
+
 
 
 main section{
     text-align: center;
-    box-sizing: 100px
+    box-sizing: content-box;
 }
 
 body{
@@ -173,6 +173,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
 }
 footer a{
     color: azure;
@@ -194,6 +195,13 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+.social {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  
 
 
 
