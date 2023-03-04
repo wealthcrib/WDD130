@@ -249,3 +249,22 @@ footer p a:hover{
         margin-top: 25px;
     }
 }
+
+
+/** This is the Css for the Blog page**/
+#contentblog {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#blog-img{
+    width: 100%;
+}
+.Ntext{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 15px;
+}
