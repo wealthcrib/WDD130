@@ -1,0 +1,127 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.up{
+    margin-top: 90px;
+    
+}
+.logo{
+    width: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-align: left;
+    color: rgb(23, 17, 17);
+    text-decoration: none;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover{
+    background-color: rgba(21, 46, 3, 0.7);
+    color: pink;
+}
+
+.home-title{
+    color:rgb(20, 15, 9);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  5em;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.happy-grid{ display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+#happy-img{
+  grid-column: 1;
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  margin-top: -20px;
+}
+.h2-subhead{ grid-row: 1fr;
+
+}
+#happy-box{ display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.happy-img2{
+    grid-column: 1;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    margin-top: 80px;
+    
+  }
+.h22{
+    grid-column: 1fr;
+    margin-top: 80px ;
+}
+.h23{
+    text-align: center;
+}
+.mainpara {
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 29px;
+    box-shadow: 0px 2px 5px rgba(140, 213, 227, 0.3);
+  }
+  
+  
+  
+  footer {
+    background-color: #adbfb1;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+footer a{
+    color: azure;
+    text-decoration: none;
+    
+    
+    
+}
+footer a:hover{
+    color: aquamarine;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    
+  }
+
